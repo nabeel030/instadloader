@@ -1,6 +1,4 @@
 import instaloader
-import urllib.parse
-import codecs
 import sys
 
 sys.stdout.reconfigure(encoding='utf-8')
