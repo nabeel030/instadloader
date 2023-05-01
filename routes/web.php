@@ -23,7 +23,7 @@ Route::post('extract-url', function(Request $request) {
 
     $url = $request->url;
 
-    $out = exec("C:\Users\hp\AppData\Local\Programs\Python\Python311\python.exe $scriptPath $url", $output, $returnValue);
+    $out = exec("/usr/bin/python $scriptPath $url", $output, $returnValue);
     dd($output);
 
     if (!is_file($scriptPath)) {
