@@ -7,7 +7,7 @@ sys.stdout.reconfigure(encoding='utf-8')
 L = instaloader.Instaloader()
 
 # Login to your account (optional)
-# L.context.login("<your_username>", "<your_password>")
+L.context.login("fa16bsse0045", "Nabeel12#")
 
 # Define the URL of the Reel you want to download
 url = sys.argv[1]
